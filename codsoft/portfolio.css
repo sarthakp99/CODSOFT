@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(242, 242, 247);
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  position: sticky;
+  height: 85px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 10px;
+  padding-top: 14px;
+  color: #000;
+  position: relative;
+
+  font-size: 19.5px;
+}
+nav ul li::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  background: rgb(255, 230, 2);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.2s;
+}
+nav ul li:hover::after {
+  width: 100%;
+}
+.left {
+  font-size: 27px;
+  padding-left: ;
+}
+.logo {
+  height: 80px;
+  width: 287px;
+}
+.bt {
+  padding-left: 850px;
+  color: #000;
+  margin-right: 8%;
+  margin-top: 16%;
+}
+.bt h1 {
+  color: #0a0a0a;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+span {
+  color: rgb(230, 195, 3);
+}
+.bt a {
+  background-color: rgb(255, 234, 4);
+  padding: 6px 11px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: 17px 0px;
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+}
+
+.images {
+  width: 40%;
+  height: 73%;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  margin-bottom: 58px;
+}
+.images img {
+  height: 100%;
+  position: absolute;
+  right: ;
+  bottom: 0;
+  transform: translateX(5%);
+  transition: bottom 1s, right 2s;
+}
+.images:hover .shape {
+  bottom: 40px;
+}
+.images:hover .boy {
+  bottom: 40px;
+}
+
+.boy {
+  margin-bottom: 45px;
+}
+.footer {
+  font-size: 13px;
+  color: #000;
+}
+.f1 {
+  display: flex;
+  margin: 50px;
+  font-size: 14px;
+}
